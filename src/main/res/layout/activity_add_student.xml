@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_student"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dark">
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Name "
+                android:textColor="#fff"
+                android:textSize="20dp" />
+            <EditText
+                android:hint="Enter name..."
+                android:textColorHint="#fff"
+                android:id="@+id/name"
+                android:inputType="textPersonName"
+                android:layout_width="200dp"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text=""/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Roll No. "
+                android:textColor="#fff"
+                android:textSize="20dp" />
+            <EditText
+                android:hint="Enter roll..."
+                android:textColorHint="#fff"
+                android:inputType="text"
+                android:id="@+id/roll"
+                android:layout_width="200dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:text=""/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Dept."
+                android:textColor="#fff"
+                android:textSize="20dp" />
+            <EditText
+                android:hint="Enter dept..."
+                android:textColorHint="#fff"
+                android:inputType="text"
+                android:textSize="18dp"
+                android:id="@+id/dept"
+                android:layout_width="200dp"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:text=""/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:text="Class"
+                android:textSize="20dp" />
+            <EditText
+                android:hint="Enter class..."
+                android:textColorHint="#fff"
+                android:inputType="text"
+                android:textSize="18dp"
+                android:id="@+id/clss"
+                android:textColor="#fff"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text=""/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="D.O.B"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+            <EditText
+                android:textColorHint="#fff"
+                android:textSize="18dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="#fff"
+                android:hint="dd/mm/yyyy"
+                android:id="@+id/date"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Phone No. "
+                android:textColor="#fff"
+                android:textSize="20dp" />
+            <EditText
+                android:hint="Enter phone no..."
+                android:textColorHint="#fff"
+                android:textSize="18dp"
+                android:inputType="number"
+                android:id="@+id/phone"
+                android:layout_width="200dp"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:text=""/>
+        </LinearLayout>
+    </LinearLayout>
+        <Button
+            android:id="@+id/add"
+            android:layout_below="@+id/ll"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD STUDENT"
+            android:background="#11772D"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_centerHorizontal="true"
+            />
+
+</RelativeLayout>
